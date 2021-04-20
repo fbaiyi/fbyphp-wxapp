@@ -151,7 +151,7 @@ class WxappClient implements WxappInterface
     public function getWxacodeunlimit(string $scene='id=1', string $page='', string $accessToken = '', int $width = 280, bool $is_hyaline = false)
     {
         return $this->http->post('wxa/getwxacodeunlimit?access_token=' . $accessToken, [
-            'form_params' => [
+            'json' => [
                 'scene' => $scene,
                 'path' => $page,
                 'width' => $width,
