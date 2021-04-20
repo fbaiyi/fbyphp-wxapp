@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Firstphp\FirstphpWxapp\Facades;
+namespace Fbyphp\FbyphpWxapp\Facades;
 
 
-use Firstphp\FirstphpWxapp\WxappClient;
+use Fbyphp\FbyphpWxapp\WxappClient;
 use Hyperf\Contract\ConfigInterface;
 use Psr\Container\ContainerInterface;
 

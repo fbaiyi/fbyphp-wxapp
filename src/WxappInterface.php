@@ -8,7 +8,7 @@ declare(strict_types=1);
  * Time: 11:59 AM
  */
 
-namespace Firstphp\FirstphpWxapp;
+namespace Fbyphp\FbyphpWxapp;
 
 
 interface WxappInterface

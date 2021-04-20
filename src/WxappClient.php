@@ -9,10 +9,10 @@ declare(strict_types = 1);
  * Time: 下午16:20
  */
 
-namespace Firstphp\FirstphpWxapp;
+namespace Fbyphp\FbyphpWxapp;
 
 
-use Firstphp\FirstphpWxapp\Bridge\Http;
+use Fbyphp\FbyphpWxapp\Bridge\Http;
 use Psr\Container\ContainerInterface;
 
 class WxappClient implements WxappInterface

@@ -1,5 +1,5 @@
 {
-    "name": "firstphp/firstphp-wxapp",
+    "name": "fbyphp/fbyphp-wxapp",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -18,7 +18,7 @@
     "description": "微信小程序开发组件 for hyperf",
     "autoload": {
         "psr-4": {
-            "Firstphp\\FirstphpWxapp\\": "src/"
+            "Fbyphp\\FbyphpWxapp\\": "src/"
         }
     },
     "autoload-dev": {
@@ -39,7 +39,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Firstphp\\FirstphpWxapp\\ConfigProvider"
+            "config": "Fbyphp\\FbyphpWxapp\\ConfigProvider"
         }
     }
 }

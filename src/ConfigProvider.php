@@ -10,10 +10,10 @@ declare(strict_types=1);
  * @license  https://github.com/hyperf-cloud/hyperf/blob/master/LICENSE
  */
 
-namespace Firstphp\FirstphpWxapp;
+namespace Fbyphp\FbyphpWxapp;
 
-use Firstphp\FirstphpWxapp\WxappInterface;
-use Firstphp\FirstphpWxapp\Facades\WxappFactory;
+use Fbyphp\FbyphpWxapp\WxappInterface;
+use Fbyphp\FbyphpWxapp\Facades\WxappFactory;
 
 class ConfigProvider
 {
@@ -33,7 +33,7 @@ class ConfigProvider
             'publish' => [
                 [
                     'id' => 'config',
-                    'description' => 'The config for firstphp-wxapp.',
+                    'description' => 'The config for fbyphp-wxapp.',
                     'source' => __DIR__ . '/publish/wxapp.php',
                     'destination' => BASE_PATH . '/config/autoload/wxapp.php',
                 ],

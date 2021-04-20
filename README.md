@@ -1,10 +1,10 @@
 ## 微信小程序开发组件 for hyperf
 
 ### 安装组件:
->composer require firstphp/firstphp-wxapp
+>composer require fbyphp/fbyphp-wxapp
 
 ### 发布配置:
->php bin/hyperf.php vendor:publish firstphp/firstphp-wxapp
+>php bin/hyperf.php vendor:publish fbyphp/fbyphp-wxapp
 
 ### 编辑.env配置：
 ```php
@@ -16,7 +16,7 @@ WXAPP_URL=https://api.weixin.qq.com/
 
 ### 示例代码：
 ```php
-use Firstphp\FirstphpWxapp\WxappInterface;
+use Fbyphp\FbyphpWxapp\WxappInterface;
 
 ......
 

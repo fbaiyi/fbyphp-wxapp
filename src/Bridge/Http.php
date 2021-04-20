@@ -9,7 +9,7 @@ declare(strict_types = 1);
  * Time: 下午16:59
  */
 
-namespace Firstphp\FirstphpWxapp\Bridge;
+namespace Fbyphp\FbyphpWxapp\Bridge;
 
 use Hyperf\Guzzle\ClientFactory;
 
