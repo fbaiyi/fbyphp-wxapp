@@ -1,0 +1,45 @@
+{
+    "name": "firstphp/firstphp-wxapp",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "狂奔的蚂蚁",
+            "email": "firstphp@firstphp.com"
+        }
+    ],
+    "keywords": [
+        "微信",
+        "微信小程序",
+        "微信API",
+        "微信用户授权",
+        "hyperf"
+    ],
+    "description": "微信小程序开发组件 for hyperf",
+    "autoload": {
+        "psr-4": {
+            "Firstphp\\FirstphpWxapp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HyperfTest\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "co-phpunit -c phpunit.xml --colors=always",
+        "analyze": "phpstan analyse --memory-limit 300M -l 0 ./src",
+        "cs-fix": "php-cs-fixer fix $1"
+    },
+    "extra": {
+        "hyperf": {
+            "config": "Firstphp\\FirstphpWxapp\\ConfigProvider"
+        }
+    }
+}
