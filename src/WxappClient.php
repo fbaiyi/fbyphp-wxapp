@@ -240,7 +240,7 @@ class WxappClient implements WxappInterface
         $aesIV = base64_decode($iv);
         $aesCipher = base64_decode($encryptedData);
         $result = openssl_decrypt($aesCipher, "AES-128-CBC", $aesKey, 1, $aesIV);
-        $dataObj = json_decode($result);
+        $dataObj = json_decode( (string)$result );
 
         if ($dataObj == NULL) {
             return ['code' => self::ILLEGAL_BUFFER, 'message' => 'buffer is error'];
