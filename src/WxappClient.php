@@ -155,6 +155,7 @@ class WxappClient implements WxappInterface
                 'scene' => $scene,
                 'page' => $page,
                 'width' => $width,
+                'is_hyaline' => $is_hyaline
             ]
         ]);
     }
