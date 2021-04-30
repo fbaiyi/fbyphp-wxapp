@@ -153,7 +153,7 @@ class WxappClient implements WxappInterface
         return $this->http->post('wxa/getwxacodeunlimit?access_token=' . $accessToken, [
             'json' => [
                 'scene' => $scene,
-                'path' => $page,
+                'page' => $page,
                 'width' => $width,
             ]
         ]);
